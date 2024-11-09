@@ -76,7 +76,7 @@ Ensure you have the following installed on your machine:
 
 3. **Set Up Expo and Navigation**:
    ```bash
-   npx create-expo-app@latest
+   npm install axios
    npx expo install @react-navigation/native
    npx expo install @react-navigation/native-stack
    ```
@@ -139,7 +139,7 @@ For those comfortable with commands:
 
 3. **Make Changes** and **Commit**:
    ```bash
-   git add .
+   git add 'file location of new feature'
    git commit -m "Add description of your changes"
    ```
 
