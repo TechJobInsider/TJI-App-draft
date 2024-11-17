@@ -1,0 +1,98 @@
+.postInfo {
+    background-color: #030f0f;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 390px;
+    padding: 0 12px 24px;
+    border-radius: 8px;
+    /* Optional, to add rounded corners */
+    font-family: "SF UI Display", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+}
+
+.postContent {
+    background-color: #030f0f;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.postText {
+    color: #fff;
+    font-size: 14px;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.moreLink,
+.commentsLink,
+.postTimestamp {
+    color: #6e6e6e;
+    font-size: 14px;
+}
+
+.commentSection {
+    display: flex;
+    align-items: center;
+    /* Center-aligns items vertically */
+    background-color: #030f0f;
+    padding: 12px 0;
+    margin-top: 8px;
+}
+
+.commentInput {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 1;
+    /* Allows the comment input to take up remaining space */
+}
+
+.userAvatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.commentPlaceholder {
+    flex-grow: 1;
+    color: #6e6e6e;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.reactions {
+    display: flex;
+    align-items: center;
+    /* Center-aligns reactions and plus button */
+    justify-content: flex-end;
+    /* Aligns reactions to the end of the section */
+    gap: 10px;
+    /* Adds spacing between emojis and plus button */
+    color: #999;
+}
+
+.reactionEmoji,
+.reactionIcon {
+    display: flex;
+    align-items: center;
+    /* Center content within the button */
+    justify-content: center;
+    /* Center content within the button */
+    width: 20px;
+    /* Ensures a uniform size for all items */
+    height: 20px;
+    /* Same as width for a square */
+    border: none;
+    background-color: transparent;
+    /* Removes background */
+    font-size: 16px;
+    /* Adjust emoji and plus sign size */
+    cursor: pointer;
+}
